@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <link rel="icon" type="image/png" href="assets/images/icon.png" />
+
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>AchAí</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+        <!-- Scroll -->
+        <script src="assets/js/scroll.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-target="#navbar-example">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top menu" id="navbar-example">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand scroll" href="#home">AchAí</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="scroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a class="scroll" href="#projeto">Projeto</a></li>
+                    <li><a class="scroll" href="#quem_somos">Quem somos</a></li>
+                    <li class="dropdown">
+                      <a href="uml.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UML<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="uml.html#classes">Diagrama de Classes</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="uml.html#sequencia">Diagrama de Sequência</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="uml.html#uso">Diagrama de Casos de Uso</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="uml.html#atividade">Diagrama de Atividade</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="uml.html#pacotes">Diagrama de Pacotes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://github.com/HelpVeg/HelpVegApp" target="_blank">GitHub</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- HOME -->
+        <section class="container-fluid content-carousel" id="home">
+            <div style="padding: 0;margin: 0" id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img style="width: 100%; height: 100vh" src="assets/images/carousel/carousel1.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img style="width: 100%; height: 100vh" src="assets/images/carousel/carousel2.jpg" alt="...">
+                </div>
+                <div class="item">
+                  <img style="width: 100%; height: 100vh" src="assets/images/carousel/carousel3.png" alt="...">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+
+        <!-- PROJETO -->
+
+        <section class="container-fluid text-center" id="projeto">
+          <div class="page-header title-page">
+            <h3>O Projeto</h3>
+          </div>
+          <div class="row" style="vertical-align: middle;">
+
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail box">
+                <img src="assets/images/projeto/run.jpg" alt="..." class="img-rounded img-responsive img-project">
+                <div class="caption">
+                  <h3>Simplifique suas compras!</h3>
+                  <p>Com o AchAí você poupa seu precioso tempo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail box">
+                <img src="assets/images/projeto/busy.jpg" alt="..." class="img-rounded img-responsive img-project">
+                <div class="caption">
+                  <h3>Ocupado demais pra pesquisar preços?</h3>
+                  <p>O AchAí resolve isso pra você lhe mostrando os preços dos produtos em vários supermercados!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail box">
+                <img src="assets/images/projeto/buy.png" alt="..." class="img-rounded img-responsive img-project">
+                <div class="caption">
+                  <h3>Levamos suas compras até você!</h3>
+                  <p>Possuímos um serviço de entrega que entrega suas compras em casa e no turno escolhido por você!</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <hr class="featurette-divider">
+        
+        <section class="container-fluid text-center" id="quem_somos">
+          <div class="page-header title-page">
+            <h3>Quem somos</h3>
+          </div>
+          <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="thumbnail box">
+                <img img width="200" height="200" src="assets/images/antonio.jpg" alt="Antonio Soares" class="img-circle img-responsive">
+                <div class="capiton">
+                  <h3 class="text-dev">Antonio Soares</h3>
+                  <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                  <a target="_blank" href="https://github.com/AntonioHNS"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                </div>       
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="thumbnail box">
+                <img img width="200" height="200" src="assets/images/jmonte.jpeg" alt="José Monte Junior" class="img-circle img-responsive">
+                <div class="capiton">
+                  <h3 class="text-dev">José Monte Júnior</h3>
+                  <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                  <a target="_blank" href="https://github.com/jmontejr"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="thumbnail box">
+                      <img width="200" height="200" src="assets/images/augusto.jpg" alt="Augusto Paiva" class="img-circle img-responsive">
+                      <div class="capiton">
+                        <h3 class="text-dev">Augusto Paiva</h3>
+                        <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                        <a target="_blank" href="https://github.com/AugustoPaiva"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                    </div>       
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="thumbnail box">
+                <img width="200" height="200" src="assets/images/misabel.jpeg" alt="Maria Isabel" class="img-circle img-responsive">
+                <div class="capiton">
+                  <h3 class="text-dev">Isabel Santiago</h3>
+                  <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                  <a target="_blank" href="https://github.com/belcsantiago"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                </div>       
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail box">
+                  <img width="200" height="200" src="assets/images/ulysses.jpg" alt="Ulysses Duarte" class="img-circle img-responsive">
+                  <div class="capiton">
+                    <h3 class="text-dev">Ulysses Duarte</h3>
+                    <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                    <a target="_blank" href="https://github.com/UlyssesBarros"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                  </div>       
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="thumbnail box">
+                  <img width="200" height="200" src="assets/images/felipe.jpg" alt="Felipe Caetano" class="img-circle img-responsive">
+                  <div class="capiton">
+                    <h3 class="text-dev">Felipe Caetano</h3>
+                    <p class="text-dev">Estudante de Sistemas de Informação - UFRPE</p>
+                    <a target="_blank" href="https://github.com/AntonioHNS"><img width="40" height="60" class="github-dev" src="assets/images/github-logo-black.png"></a>
+                  </div>       
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </body>
+</html>
